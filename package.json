@@ -3,10 +3,11 @@
   "version": "0.0.1-BETA",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "@koa/router": "^13.1.0",
+    "axios": "^1.8.4",
     "koa": "^2.16.1",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^13.0.1",
